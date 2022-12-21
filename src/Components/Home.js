@@ -7,9 +7,7 @@ const Home=()=>{
   const [modal ,setModal] =useState(false);
   const [inputData, setInputData]= useState("");
   const [option, setoption]= useState("");
-  const [Date, setDate]=useState("")
   const [eventDes,seteventDes]=useState("")
-  const [eventorga,seteventOrga]=useState("")
   const [subEvent,setsubEvent]=useState("")
   const dispatch=useDispatch();
   const list = useSelector((state)=>state.EventReducer.list)
